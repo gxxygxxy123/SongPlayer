@@ -1,0 +1,35 @@
+h1,h2{
+	color: red;
+}
+body{
+	text-align: center;
+	background-image: url('background.png');
+}
+table{
+	border-color: azure;
+	border-style: solid;
+	margin: auto;
+	empty-cells: show;
+	text-align: center;
+}
+th{
+	background-color: bisque;
+	color: green;
+}
+td{
+	background-color: bisque;
+	color: blue;
+	padding: 5px;
+}
+audio{
+
+}
+.play{
+	background-color: honeydew;
+}
+.delete{
+	background-color: honeydew;
+}
+.addNewSong{
+	background-color: honeydew;
+}

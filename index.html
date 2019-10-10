@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Song</title>
+		<link rel="stylesheet" tpye="text/css" href="index.css">
+		<script src="songButton.js"></script>
+	</head>
+	<body>
+		<h1>Song Player</h1>
+		<table>
+			<tr>
+				<th>順序</th>
+				<th>歌名</th>
+				<th>檔名</th>
+				<th>action</th>
+			</tr>
+			{{content}}
+			
+		<tr>
+			<form action="songInsert" method="POST" enctype="multipart/form-data">
+			<td>&nbsp;</td>
+			<td>
+				<input type="text" name="songName" />
+			</td>
+			<td>
+				<input type="file" name="songFile" />
+			</td>
+			<td>
+				<input type="submit" class="addNewSong" value="新增歌曲">
+			</td>
+		</tr>
+		</table>
+		<audio id="mp3player" src="" controls="controls" autoplay="autoplay"></audio>
+	</body>
+</html>
